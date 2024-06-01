@@ -1,5 +1,5 @@
 # RepHat
 
-"**R**epRap **E**xtension for **P**i"-"**Hat**
+"**R**epRap **E**xtension for **P**i"-**Hat**
 
-*Work in Progress!*
+*Wörk in Progress*

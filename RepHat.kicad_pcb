@@ -323,7 +323,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tstamp 111e72c7-0f10-4687-8cc5-7fcd7d06427a)
-    (at 61.75 101)
+    (at 149.975 18.205)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "regulator.kicad_sch")
@@ -607,7 +607,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tstamp 19e2f0b2-9427-4743-9b06-c83990744ff0)
-    (at 61.75 108.53)
+    (at 149.975 25.735)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "regulator.kicad_sch")
@@ -977,7 +977,7 @@
 
   (footprint "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" (layer "F.Cu")
     (tstamp 475743a5-3c71-4439-9f24-ed43c9a18d7e)
-    (at 20.57 108.68)
+    (at 108.795 25.885)
     (descr "JST XH series connector, B3B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
     (tags "connector JST XH vertical")
     (property "Sheetfile" "RepHat.kicad_sch")
@@ -1185,7 +1185,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tstamp 67dab065-b18e-4fd0-9e77-2817960b50ae)
-    (at 61.75 111.04)
+    (at 149.975 28.245)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "regulator.kicad_sch")
@@ -1239,7 +1239,7 @@
 
   (footprint "TerminalBlock_WAGO:TerminalBlock_WAGO_236-102_1x02_P5.00mm_45Degree" (layer "F.Cu")
     (tstamp 72bdf60a-26a4-4a3b-b93d-09f7c5b68b0f)
-    (at 47.92 95.73)
+    (at 136.145 12.935)
     (descr "Terminal Block WAGO 236-102, 45Degree (cable under 45degree), 2 pins, pitch 5mm, size 12.3x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO")
     (tags "THT Terminal Block WAGO 236-102 45Degree pitch 5mm size 12.3x14mm^2 drill 1.15mm pad 3mm")
     (property "Sheetfile" "RepHat.kicad_sch")
@@ -1578,7 +1578,7 @@
 
   (footprint "Capacitor_SMD:C_1206_3216Metric" (layer "F.Cu")
     (tstamp 7ee65417-a515-4bce-a26b-600a13f49164)
-    (at 66.58 103.03)
+    (at 154.805 20.235)
     (descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "regulator.kicad_sch")
@@ -1736,7 +1736,7 @@
 
   (footprint "rephat-parts:WSON_SDRRR_TEX" (layer "F.Cu")
     (tstamp 85b21b87-2ec0-40e9-956e-7e9c7197fb77)
-    (at 72.483125 103.7346)
+    (at 160.708125 20.9396)
     (tags "LMR51450FNDRRR ")
     (property "Sheetfile" "regulator.kicad_sch")
     (property "Sheetname" "Regulator")
@@ -1845,7 +1845,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tstamp 8920af17-52e3-481f-a54c-7d75c999e273)
-    (at 61.75 98.49)
+    (at 149.975 15.695)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "regulator.kicad_sch")
@@ -1924,7 +1924,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tstamp 91e9dfca-462a-4984-9dbc-0f3de946773d)
-    (at 61.75 95.98)
+    (at 149.975 13.185)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "regulator.kicad_sch")
@@ -1978,7 +1978,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tstamp 957a4a81-306b-45da-b43f-398a08ad5a07)
-    (at 61.75 106.02)
+    (at 149.975 23.225)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "regulator.kicad_sch")
@@ -2138,7 +2138,7 @@
 
   (footprint "TerminalBlock_WAGO:TerminalBlock_WAGO_236-102_1x02_P5.00mm_45Degree" (layer "F.Cu")
     (tstamp aad7c327-d9e7-4024-b0e5-9e00fed1298f)
-    (at 33.57 95.73)
+    (at 121.795 12.935)
     (descr "Terminal Block WAGO 236-102, 45Degree (cable under 45degree), 2 pins, pitch 5mm, size 12.3x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO")
     (tags "THT Terminal Block WAGO 236-102 45Degree pitch 5mm size 12.3x14mm^2 drill 1.15mm pad 3mm")
     (property "Sheetfile" "RepHat.kicad_sch")
@@ -2422,7 +2422,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tstamp b29b7867-19c6-48ff-b460-2c252b001f23)
-    (at 61.75 90.96)
+    (at 149.975 8.165)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "regulator.kicad_sch")
@@ -2658,7 +2658,7 @@
 
   (footprint "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" (layer "F.Cu")
     (tstamp bb86fcde-4033-4eba-a9cc-ce3d813be39f)
-    (at 20.57 116.48)
+    (at 108.795 33.685)
     (descr "JST XH series connector, B3B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
     (tags "connector JST XH vertical")
     (property "Sheetfile" "RepHat.kicad_sch")
@@ -2762,7 +2762,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tstamp bbd6867b-774e-4cbd-b1b2-e1e0af175bc5)
-    (at 61.75 103.51)
+    (at 149.975 20.715)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "regulator.kicad_sch")
@@ -2870,7 +2870,7 @@
 
   (footprint "rephat-parts:L_Wuerth_WE-PD4-Typ-L" (layer "F.Cu")
     (tstamp c0fd232e-bbcd-4e05-a1b5-6cf8f8b321d0)
-    (at 71.08 95.53)
+    (at 159.305 12.735)
     (descr "Power Inductor, Wuerth Elektronik, WE-PD4, SMT, Typ X, https://katalog.we-online.de/pbs/datasheet/74458001.pdf")
     (tags "Choke Power Inductor WE-PD4 TypX Wuerth")
     (property "Sheetfile" "regulator.kicad_sch")
@@ -3241,7 +3241,7 @@
 
   (footprint "Capacitor_SMD:C_1206_3216Metric" (layer "F.Cu")
     (tstamp d2fb030c-dbfb-4c19-b96f-89ab6a8ae420)
-    (at 66.58 106.38)
+    (at 154.805 23.585)
     (descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "regulator.kicad_sch")
@@ -3395,7 +3395,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tstamp e15d0d7e-520c-48d9-b9aa-fe79c2139cee)
-    (at 61.75 93.47)
+    (at 149.975 10.675)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "regulator.kicad_sch")
