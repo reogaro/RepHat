@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "rephat-parts")(type "KiCad")(uri "${KIPRJMOD}/rephat-parts.pretty")(options "")(descr ""))
+)
