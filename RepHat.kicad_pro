@@ -469,6 +469,10 @@
     [
       "381d2591-0bfd-4f78-ae22-4c9ec10d92d5",
       "Regulator"
+    ],
+    [
+      "c50ad7f5-975f-4177-af17-0353c7722624",
+      "Endstops"
     ]
   ],
   "text_variables": {}
