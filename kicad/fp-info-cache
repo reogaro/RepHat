@@ -1,4 +1,4 @@
-23697403917245991
+23699122123906943
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -96592,6 +96592,13 @@ Choke Power Inductor WE-PD4 TypX Wuerth
 0
 2
 2
+rephat-parts
+PWP28_5P18X3P1
+
+DRV8825PWP 
+0
+29
+29
 rephat-parts
 QFN28_5X5_TRI-M
 
