@@ -1200,6 +1200,12 @@
 		(uuid "b8a7c10a-549c-4f2e-b969-96f37a329492")
 	)
 	(junction
+		(at 199.39 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5a25322-7edc-46a2-90da-7a70ce46a16f")
+	)
+	(junction
 		(at 171.45 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1210,12 +1216,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d82f07d5-3cc7-4d5d-8900-2f85fa8f0473")
-	)
-	(junction
-		(at 194.31 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e84848ef-4b16-4c89-8740-3ca3c7d9f6bd")
 	)
 	(junction
 		(at 86.36 99.06)
@@ -1245,7 +1245,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 96.52) (xy 194.31 96.52)
+			(xy 168.91 96.52) (xy 199.39 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1525,6 +1525,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 86.36) (xy 214.63 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "928aae12-4dd1-4f76-9084-b6988cb78cdb")
+	)
+	(wire
+		(pts
 			(xy 118.11 113.03) (xy 118.11 101.6)
 		)
 		(stroke
@@ -1555,7 +1565,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 96.52) (xy 194.31 93.98)
+			(xy 199.39 96.52) (xy 199.39 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1635,17 +1645,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 86.36) (xy 214.63 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db49c4bf-f24e-401a-8a25-c289d8bd0af1")
-	)
-	(wire
-		(pts
-			(xy 191.77 86.36) (xy 194.31 86.36)
+			(xy 191.77 86.36) (xy 199.39 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2430,7 +2430,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 194.31 90.17 0)
+		(at 199.39 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2439,7 +2439,7 @@
 		(fields_autoplaced yes)
 		(uuid "85924591-bfbd-456e-a0af-8ab0421dc9b2")
 		(property "Reference" "R4"
-			(at 196.85 88.9 0)
+			(at 201.93 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2448,7 +2448,7 @@
 			)
 		)
 		(property "Value" "100k 0402"
-			(at 196.85 91.44 0)
+			(at 201.93 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2457,7 +2457,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 192.532 90.17 90)
+			(at 197.612 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2466,7 +2466,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 194.31 90.17 0)
+			(at 199.39 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2475,7 +2475,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 194.31 90.17 0)
+			(at 199.39 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2918,7 +2918,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1μF 0402 16V"
+		(property "Value" "0.1μF 0603 16V"
 			(at 180.34 91.44 0)
 			(effects
 				(font
