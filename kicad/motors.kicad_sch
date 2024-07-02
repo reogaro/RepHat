@@ -7705,7 +7705,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100K 0402"
+		(property "Value" "2K7 0402"
 			(at 353.06 101.6 0)
 			(effects
 				(font
@@ -8937,7 +8937,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100K 0402"
+		(property "Value" "2K7 0402"
 			(at 157.48 104.14 0)
 			(effects
 				(font
@@ -10207,7 +10207,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100K 0402"
+		(property "Value" "2K7 0402"
 			(at 354.33 214.63 0)
 			(effects
 				(font
@@ -11526,7 +11526,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100K 0402"
+		(property "Value" "2K7 0402"
 			(at 160.02 232.41 0)
 			(effects
 				(font
@@ -12711,7 +12711,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100K 0402"
+		(property "Value" "8K2 0402"
 			(at 157.48 83.82 0)
 			(effects
 				(font
@@ -13324,7 +13324,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100K 0402"
+		(property "Value" "8K2 0402"
 			(at 354.33 194.31 0)
 			(effects
 				(font
@@ -13537,7 +13537,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100K 0402"
+		(property "Value" "8K2 0402"
 			(at 160.02 212.09 0)
 			(effects
 				(font
@@ -16216,7 +16216,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100K 0402"
+		(property "Value" "8K2 0402"
 			(at 353.06 81.28 0)
 			(effects
 				(font
