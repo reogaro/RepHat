@@ -1454,7 +1454,7 @@
 				)
 			)
 			(pin output line
-				(at 27.94 12.7 180)
+				(at 27.94 7.62 180)
 				(length 7.62)
 				(name "OUTA+"
 					(effects
@@ -1472,7 +1472,7 @@
 				)
 			)
 			(pin output line
-				(at 27.94 15.24 180)
+				(at 27.94 10.16 180)
 				(length 7.62)
 				(name "OUTA+"
 					(effects
@@ -1544,7 +1544,7 @@
 				)
 			)
 			(pin power_out line
-				(at -3.81 -45.72 90)
+				(at -2.54 -45.72 90)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -1562,7 +1562,7 @@
 				)
 			)
 			(pin output line
-				(at 27.94 7.62 180)
+				(at 27.94 12.7 180)
 				(length 7.62)
 				(name "OUTA-"
 					(effects
@@ -1580,7 +1580,7 @@
 				)
 			)
 			(pin output line
-				(at 27.94 10.16 180)
+				(at 27.94 15.24 180)
 				(length 7.62)
 				(name "OUTA-"
 					(effects
@@ -1598,7 +1598,7 @@
 				)
 			)
 			(pin power_out line
-				(at -1.27 -45.72 90)
+				(at 0 -45.72 90)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -1616,7 +1616,7 @@
 				)
 			)
 			(pin power_out line
-				(at 1.27 -45.72 90)
+				(at 2.54 -45.72 90)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -1652,7 +1652,7 @@
 				)
 			)
 			(pin output line
-				(at 27.94 25.4 180)
+				(at 27.94 20.32 180)
 				(length 7.62)
 				(name "OUTB-"
 					(effects
@@ -1670,7 +1670,7 @@
 				)
 			)
 			(pin output line
-				(at 27.94 27.94 180)
+				(at 27.94 22.86 180)
 				(length 7.62)
 				(name "OUTB-"
 					(effects
@@ -1688,7 +1688,7 @@
 				)
 			)
 			(pin power_out line
-				(at 3.81 -45.72 90)
+				(at 5.08 -45.72 90)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -1760,7 +1760,7 @@
 				)
 			)
 			(pin output line
-				(at 27.94 20.32 180)
+				(at 27.94 25.4 180)
 				(length 7.62)
 				(name "OUTB+"
 					(effects
@@ -1778,7 +1778,7 @@
 				)
 			)
 			(pin output line
-				(at 27.94 22.86 180)
+				(at 27.94 27.94 180)
 				(length 7.62)
 				(name "OUTB+"
 					(effects
@@ -2047,24 +2047,6 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 6.35 -45.72 90)
-				(length 7.62)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "40"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin power_in line
 				(at -27.94 3.81 0)
 				(length 7.62)
@@ -2210,7 +2192,7 @@
 				)
 			)
 			(pin power_out line
-				(at -6.35 -45.72 90)
+				(at -5.08 -45.72 90)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -2300,6 +2282,26 @@
 				)
 			)
 		)
+		(symbol "TB67S109AFTG_1_0"
+			(pin power_out line
+				(at -7.62 -45.72 90)
+				(length 7.62)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "49"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
 		(symbol "TB67S109AFTG_1_1"
 			(rectangle
 				(start -20.32 35.56)
@@ -2310,6 +2312,24 @@
 				)
 				(fill
 					(type background)
+				)
+			)
+			(pin power_out line
+				(at 7.62 -45.72 90)
+				(length 7.62)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "40"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
 		)

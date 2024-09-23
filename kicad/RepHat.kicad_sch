@@ -8,126 +8,6 @@
 		(date "2024-06-21")
 	)
 	(lib_symbols
-		(symbol "+5V_1"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+5V_1"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+5V_1_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_1_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0) hide
-					(name "+5V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector:Conn_01x03_Pin"
 			(pin_names
 				(offset 1.016) hide)
@@ -2438,107 +2318,12 @@
 				)
 			)
 		)
-		(symbol "GND_1"
-			(power)
+		(symbol "Jumper:SolderJumper_2_Open"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_1_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Jumper:SolderJumper_2_Open"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
+			(exclude_from_sim yes)
+			(in_bom no)
 			(on_board yes)
 			(property "Reference" "JP"
 				(at 0 2.032 0)
@@ -3498,9 +3283,9 @@
 		)
 		(symbol "power:+3.3V"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3548,7 +3333,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3598,8 +3383,8 @@
 			(symbol "+3.3V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+3V3"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3738,9 +3523,9 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3788,7 +3573,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3814,8 +3599,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3834,9 +3619,9 @@
 		)
 		(symbol "power:VCC"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3850,7 +3635,7 @@
 				)
 			)
 			(property "Value" "VCC"
-				(at 0 3.81 0)
+				(at 0 3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3934,8 +3719,8 @@
 			(symbol "VCC_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "VCC"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5999,7 +5784,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 53.34 30.48 0)
 			(effects
 				(font
@@ -6062,7 +5847,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 73.66 86.36 0)
 			(effects
 				(font
@@ -6125,7 +5910,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 55.88 86.36 0)
 			(effects
 				(font
@@ -6180,7 +5965,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at -59.69 81.28 0)
 			(effects
 				(font
@@ -6189,7 +5974,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 63.5 57.15 0)
 			(effects
 				(font
@@ -6373,7 +6158,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 85.09 163.83 0)
 			(effects
 				(font
@@ -6442,7 +6227,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 63.5 119.38 0)
 			(effects
 				(font
@@ -6507,7 +6292,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 111.76 123.19 0)
 			(effects
 				(font
@@ -6577,7 +6362,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 33.02 171.45 0)
 			(effects
 				(font
@@ -6701,7 +6486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.onsemi.cn/PowerSolutions/document/CAT24C256-D.PDF"
 			(at 72.39 171.45 0)
 			(effects
 				(font
@@ -6710,7 +6495,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "256 kb CMOS Serial EEPROM, DIP-8/SOIC-8/TSSOP-8/DFN-8"
 			(at 72.39 171.45 0)
 			(effects
 				(font
@@ -6797,7 +6582,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 49.53 129.54 0)
 			(effects
 				(font
@@ -6942,7 +6727,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 72.39 184.15 0)
 			(effects
 				(font
@@ -7007,7 +6792,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 109.22 154.94 0)
 			(effects
 				(font
@@ -7156,7 +6941,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 144.78 123.19 0)
 			(effects
 				(font
@@ -7178,7 +6963,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 123.19 50.8 0)
 		(unit 1)
@@ -7290,7 +7074,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 152.4 59.69 0)
 			(effects
 				(font
@@ -7351,7 +7135,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885012108012.pdf"
+		(property "Datasheet" "~"
 			(at 123.19 43.18 0)
 			(effects
 				(font
@@ -7360,7 +7144,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 123.19 43.18 0)
 			(effects
 				(font
@@ -7490,7 +7274,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=ca5c80cb-504e-4a8a-8e74-0107520a1717&filename=1812l-datasheet-update"
+		(property "Datasheet" "~"
 			(at 133.35 120.65 0)
 			(effects
 				(font
@@ -7524,7 +7308,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 152.4 67.31 0)
 		(unit 1)
@@ -7634,7 +7417,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 41.91 118.11 0)
 			(effects
 				(font
@@ -7704,7 +7487,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 57.15 171.45 0)
 			(effects
 				(font
@@ -7803,7 +7586,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 109.22 50.8 0)
 		(unit 1)
@@ -7914,7 +7696,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 92.71 173.99 0)
 			(effects
 				(font
@@ -7981,7 +7763,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 177.8 59.69 0)
 			(effects
 				(font
@@ -8051,7 +7833,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 100.33 163.83 0)
 			(effects
 				(font
@@ -8146,7 +7928,6 @@
 		)
 	)
 	(symbol
-		(lib_name "+5V_1")
 		(lib_id "power:+5V")
 		(at 144.78 120.65 0)
 		(unit 1)
@@ -8191,7 +7972,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 144.78 120.65 0)
 			(effects
 				(font
@@ -8257,7 +8038,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 132.08 172.72 0)
 			(effects
 				(font
@@ -8322,7 +8103,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x03, script generated"
 			(at 129.54 162.56 0)
 			(effects
 				(font
@@ -8394,7 +8175,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 63.5 114.3 0)
 			(effects
 				(font
@@ -8484,7 +8265,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 177.8 67.31 0)
 		(unit 1)
@@ -8594,7 +8374,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Solder Jumper, 2-pole, open"
 			(at 87.63 173.99 0)
 			(effects
 				(font

@@ -421,9 +421,9 @@
 		)
 		(symbol "power:+5V"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -471,7 +471,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -521,8 +521,8 @@
 			(symbol "+5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+5V"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -541,9 +541,9 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -591,7 +591,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -617,8 +617,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -637,9 +637,9 @@
 		)
 		(symbol "power:VCC"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -653,7 +653,7 @@
 				)
 			)
 			(property "Value" "VCC"
-				(at 0 3.81 0)
+				(at 0 3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -737,8 +737,8 @@
 			(symbol "VCC_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "VCC"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1729,7 +1729,7 @@
 				)
 			)
 		)
-		(property "Footprint" "rephat-parts:WSON_SDRRR_TEX"
+		(property "Footprint" "WSON_SDRRR_TEX"
 			(at 143.51 95.25 0)
 			(effects
 				(font
@@ -1852,7 +1852,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 99.06 95.25 0)
 			(effects
 				(font
@@ -1921,7 +1921,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Inductor"
 			(at 187.96 86.36 0)
 			(effects
 				(font
@@ -1991,7 +1991,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 170.18 104.14 0)
 			(effects
 				(font
@@ -2061,7 +2061,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 214.63 106.68 0)
 			(effects
 				(font
@@ -2131,7 +2131,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 73.66 95.25 0)
 			(effects
 				(font
@@ -2200,7 +2200,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 73.66 100.33 0)
 			(effects
 				(font
@@ -2267,7 +2267,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 214.63 110.49 0)
 			(effects
 				(font
@@ -2334,7 +2334,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 86.36 95.25 0)
 			(effects
 				(font
@@ -2395,7 +2395,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885012108012.pdf"
+		(property "Datasheet" "~"
 			(at 241.3 93.98 0)
 			(effects
 				(font
@@ -2404,7 +2404,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 241.3 93.98 0)
 			(effects
 				(font
@@ -2474,7 +2474,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 199.39 90.17 0)
 			(effects
 				(font
@@ -2543,7 +2543,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 73.66 90.17 0)
 			(effects
 				(font
@@ -2610,7 +2610,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 214.63 93.98 0)
 			(effects
 				(font
@@ -2680,7 +2680,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 111.76 99.06 0)
 			(effects
 				(font
@@ -2746,7 +2746,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 234.95 110.49 0)
 			(effects
 				(font
@@ -2813,7 +2813,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 170.18 107.95 0)
 			(effects
 				(font
@@ -2879,7 +2879,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 252.73 86.36 0)
 			(effects
 				(font
@@ -2945,7 +2945,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 176.53 90.17 0)
 			(effects
 				(font
@@ -3006,7 +3006,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885012108012.pdf"
+		(property "Datasheet" "~"
 			(at 228.6 93.98 0)
 			(effects
 				(font
@@ -3015,7 +3015,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 228.6 93.98 0)
 			(effects
 				(font
